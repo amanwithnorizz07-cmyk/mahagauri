@@ -35,7 +35,9 @@ export function Footer() {
             </h3>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/60">
               Crafted for timeless elegance. Ultra-premium handbags, made from
-              the finest Italian leather by hand.
+              the finest Italian leather by hand. Enjoy free shipping across India,
+              GST-inclusive pricing, and secure payments via UPI, Razorpay,
+              PhonePe, cards and net banking.
             </p>
             <address className="mt-6 not-italic text-sm leading-relaxed text-white/60">
               Ground floor, MAHAGAURI, Thano Rd, near Ms furniture, Joly Grant,

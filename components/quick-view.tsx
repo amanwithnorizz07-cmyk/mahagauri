@@ -66,6 +66,9 @@ export function QuickView({
                 <p className="mt-3 font-display text-2xl">
                   {formatPrice(product.price)}
                 </p>
+                <p className="mt-2 text-[11px] uppercase tracking-wide-lux text-gold">
+                  Inclusive of GST
+                </p>
                 <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
                   {product.description}
                 </p>

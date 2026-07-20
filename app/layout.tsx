@@ -24,16 +24,16 @@ const jost = Jost({
 })
 
 export const metadata: Metadata = {
-  title: 'MahaGauri — Crafted for Timeless Elegance',
+  title: 'MahaGauri — Luxury Handbags for India',
   description:
-    'MahaGauri is an ultra-premium handbag fashion house. Discover exclusive collections crafted from the finest Italian leather with heritage-inspired, future-focused design.',
+    'Shop premium handbags in India with INR pricing, GST-inclusive delivery, and secure payments through UPI, Razorpay, PhonePe, cards, and net banking.',
   generator: 'v0.app',
   keywords: [
     'MahaGauri',
-    'luxury handbags',
-    'designer handbags',
-    'Italian leather',
-    'premium fashion',
+    'luxury handbags India',
+    'designer handbags India',
+    'INR handbags',
+    'GST inclusive fashion',
   ],
   openGraph: {
     title: 'MahaGauri — Crafted for Timeless Elegance',

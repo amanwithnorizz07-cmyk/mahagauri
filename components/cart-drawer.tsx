@@ -77,11 +77,11 @@ export function CartDrawer() {
                     {remaining > 0 ? (
                       <>
                         You are {formatPrice(remaining)} away from{' '}
-                        <span className="text-foreground">complimentary shipping</span>
+                        <span className="text-foreground">free shipping across India</span>
                       </>
                     ) : (
                       <span className="text-foreground">
-                        You have earned complimentary shipping.
+                        You have earned free shipping across India.
                       </span>
                     )}
                   </p>
@@ -218,7 +218,7 @@ export function CartDrawer() {
                     Proceed to Checkout
                   </Link>
                   <p className="mt-3 text-center text-[10px] uppercase tracking-wide-lux text-muted-foreground">
-                    Complimentary returns · Secure payment
+                    Free shipping across India · GST inclusive · Secure payments
                   </p>
                 </div>
               </>

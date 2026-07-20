@@ -30,7 +30,7 @@ export const products: Product[] = [
     slug: 'aurelia-top-handle',
     name: 'Aurelia Top Handle',
     collection: 'Signature',
-    price: 3450,
+    price: 34900,
     material: 'Calf Leather',
     color: 'Matte Black',
     colorHex: '#0A0A0A',
@@ -62,7 +62,7 @@ export const products: Product[] = [
     slug: 'serena-shoulder',
     name: 'Serena Shoulder Bag',
     collection: 'Signature',
-    price: 2890,
+    price: 28900,
     material: 'Nappa Leather',
     color: 'Soft Beige',
     colorHex: '#E9E2D5',
@@ -92,7 +92,7 @@ export const products: Product[] = [
     slug: 'celine-evening-clutch',
     name: 'Céleste Evening Clutch',
     collection: 'Evening',
-    price: 1980,
+    price: 18900,
     material: 'Satin & Leather',
     color: 'Dark Charcoal',
     colorHex: '#1C1C1C',
@@ -122,7 +122,7 @@ export const products: Product[] = [
     slug: 'mila-crossbody',
     name: 'Mila Quilted Crossbody',
     collection: 'New Arrivals',
-    price: 2450,
+    price: 24900,
     material: 'Quilted Lambskin',
     color: 'Ivory',
     colorHex: '#F9F7F3',
@@ -153,7 +153,7 @@ export const products: Product[] = [
     slug: 'isabella-tote',
     name: 'Isabella Shopper Tote',
     collection: 'Heritage',
-    price: 3180,
+    price: 31900,
     material: 'Vegetable-Tanned Leather',
     color: 'Cognac',
     colorHex: '#8B5A2B',
@@ -183,7 +183,7 @@ export const products: Product[] = [
     slug: 'valentina-mini',
     name: 'Valentina Mini Box',
     collection: 'Limited Edition',
-    price: 4200,
+    price: 42900,
     material: 'Box Calf Leather',
     color: 'Matte Black',
     colorHex: '#0A0A0A',
@@ -259,13 +259,13 @@ export const collectionNames: Collection[] = [
 ]
 
 export function formatPrice(price: number) {
-  return new Intl.NumberFormat('en-US', {
+  return new Intl.NumberFormat('en-IN', {
     style: 'currency',
-    currency: 'USD',
+    currency: 'INR',
     maximumFractionDigits: 0,
   }).format(price)
 }
 
-export function getProduct(slug: string) {
-  return products.find((p) => p.slug === slug)
+export function getProduct(identifier: string) {
+  return products.find((p) => p.slug === identifier || p.id === identifier)
 }
